@@ -1,24 +1,24 @@
 # 网站标题
-title: Hexo主题-Quiet主题-Hexo扁平化主题安装
+title: 深入學習 Angular
 # 网站标题后缀
-suffix: Quiet
+suffix: 
 # 作者名称(会显示在首页文章下面)
-author: CHANGEQ
+author: Angular Taiwan
 # 首页简介（显示在首页顶部Logo的那句话）
-home_describe: A COLLEGE STUDENT WITH IDEALS AND BELIEFS.
+home_describe: 暫時想不到
 # 网站关键字
-keyword: hexo主题,hexo扁平化主题,Quiet主题
+keyword: angular,taiwan,web,javascript,typescript,frontend,front-end,framework
 is_article_img: false  #false是否开启文章背景图显示(随机图片)
 # 网站描述
-web_description: 描述
+web_description: 暫時想不到
 # 导航名称
 menus_title:
-  home: HOME
-  archive: ARCHIVE
-  categories: CATEGORIES
-  tags: TAGS
-  links: LINKS
-  about: ABOUT
+  home: 首頁
+  archive: 歷史記錄
+  categories: 分類
+  tags: 標籤
+  links: 友情連結
+  about: 關於
 # 导航 （不建议修改）
 menus:
   home: /
@@ -29,12 +29,12 @@ menus:
   about: /about
   
 # logo
-logo: /image/logo.png
+logo: /image/angular-taiwan-icon.png
 # 网页标签上那个小图标 一定要用本地存储
 icon: /image/favicon.ico
 # 每个页面上面的图表
 topIcon:
-  homeIcon: "/image/logo.png"
+  homeIcon: "/image/angular-taiwan-icon.png"
   archivesIcon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgicon-remixicon.svg"
   tagIcon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgtags.svg"
   linksIcon: "https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imga20r7-cftji.svg"
@@ -55,16 +55,16 @@ bottomIcon:
     #图标    
     iconLink: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imggithub.png',
     #跳转链接    
-    toUrl: 'https://github.com/qiaobug'
+    toUrl: 'https://github.com/AngularTaiwan/indepth'
   }
 # 友情链接
 linksList:
-  - {
-    title: '乔越博客',
-    intro: '收藏回忆与分享技术的地方',
-    link: 'https://www.79bk.cn/',
-    image: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgIMG_7327.jpeg'
-  }
+  # - {
+  #   title: '乔越博客',
+  #   intro: '收藏回忆与分享技术的地方',
+  #   link: 'https://www.79bk.cn/',
+  #   image: 'https://cdn.jsdelivr.net/gh/duogongneng/MyBlogImg/imgIMG_7327.jpeg'
+  # }
 # 文字内点击图片放大相关配置
 picture:
   # 蒙版的颜色也就是 打开图片背景 显示的颜色
@@ -75,23 +75,3 @@ picture:
   imgRadius: "10px"
 #默认的cover (默认缩略图) 在没有填写（这里可以替换（可以是api也可以是固定的图））
 default_cover: https://api.ixiaowai.cn/gqapi/gqapi.php
-
-theme: Quiet
-
-index_generator:
-  path: ''
-  per_page: 9
-  order_by: -date
-
-highlight:
-  enable: true
-  line_number: false
-  auto_detect: true
-  tab_replace: ''
-  wrap: true
-  hljs: true
-prismjs:
-  enable: false
-  preprocess: true
-  line_number: true
-  tab_replace: ''

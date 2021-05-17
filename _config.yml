@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: Angular In Depth
+subtitle: Taiwan
 description: ''
-keywords:
-author: John Doe
-language: en
+keywords: angular,taiwan,web,javascript,typescript,frontend,front-end,framework
+author: Angular Taiwan
+language: zh
 timezone: ''
 
 # URL
